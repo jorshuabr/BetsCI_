@@ -35,7 +35,7 @@
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
-			<!-- plugin test coverage -->
+			<!-- plugin test coverage 
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19</version>
@@ -46,7 +46,7 @@
 						<version>1.0.0</version>
 					</dependency>
 				</dependencies>
-			</plugin>
+			</plugin>-->
 		</plugins>
 
 	</build>

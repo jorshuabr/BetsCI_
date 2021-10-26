@@ -18,7 +18,7 @@ class CreateApuestaDA2Test {
 	static TestUtilityDataAccess testDA = new TestUtilityDataAccess();
 	RegularUser user = new RegularUser("name", "pass", "fname", "lname", "31/01", "j@j.com", "1212", 684123123, "k.2.3", 20);
 	Forecast fo = Mockito.mock(Forecast.class);
-	/**/
+	/*
 	@Test
 	@DisplayName("Test3: ValorApuesta Negativo")
 	public void test1(){
@@ -56,7 +56,7 @@ class CreateApuestaDA2Test {
 		sut.deleteUser("name");
 	}
 	
-	/**/
+	
 	@Test
 	@DisplayName("Test9: Apuesta Creada")
 	public void test4() throws UserAlreadyExistException {
@@ -80,5 +80,5 @@ class CreateApuestaDA2Test {
 		assertThrows(Exception.class,() -> sut.createApuesta(null, user, 12f));
 	}
 
-	
+	*/
 }
